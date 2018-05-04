@@ -7,9 +7,9 @@ from  pywords_test1 import term
 print 'searching for', term
 #print (WORDS)
 
-es = Elasticsearch(['dfw-14402-0.es.objectrocket.com', 'dfw-14402-1.es.objectrocket.com', 'dfw-14402-2.es.objectrocket.com', 'dfw-14402-3.es.objectrocket.com'],
-    http_auth=('paul', 'Rossme1er'),
-    port=14402,
+es = Elasticsearch(['HOST', 'HOST', 'HOST', 'HOST'],
+    http_auth=('user', 'password'),
+    port=PORT,
 )
 #    print("Connected {}".format(es.info()))
 #except Exception as ex:
