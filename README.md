@@ -1,2 +1,2 @@
 # query-optimization
-python application to test query optimization for course hero
+python application to test query optimization
